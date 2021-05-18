@@ -1,0 +1,154 @@
+body{
+	margin: 0px auto;
+	width: 100%;
+}
+nav ul li{
+	list-style-type: none;
+	float: left;
+	padding-right: 2.5em;/* px, em, %, pt, cm */
+	color: #eff3c6;
+}
+nav ul{
+	float: right;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background: #0779e4;
+	position: fixed;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.home{
+	background-color: #77d8d8;
+	text-align: center;
+	font-size: 48px;
+	color: #ffffff;
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.home .inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+.home .inner img{
+	border-radius: 100%;
+	align-self: center;
+	width: 250px;
+	height: auto;
+}
+.about{
+	background-image: url(https://image.freepik.com/free-photo/elevated-view-keyboard-coffee-cup-plant-pot-black-background-with-copy-space_23-2148042017.jpg);
+	display: table;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 70%;
+	float: left;
+	padding-top: 400px;
+	padding-left: 50px;
+}
+.about .inner h1{
+	font-size: 32px;
+	color: #ffffff;
+}
+.about .inner p{
+	font-size: 20px;
+	color: #ffffff;
+}
+.education{
+	background-image: url(https://image.shutterstock.com/image-photo/creative-arrangements-stationery-on-pastel-260nw-1467711701.jpg);
+	background-color: #ffffff;
+	display: table;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.education .inner{
+	padding: 50px;
+}
+.education h1, .hobbies h1,.skills h1, .contact h1{
+	font-size: 42px;
+}
+.education .inner div , .hobbies .inner div,.skills .inner div{
+	width: 30%;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+}
+.education .inner div p, .hobbies .inner div p, .skills .inner div ul li, .contact .inner div p{
+	font-size: 28px;
+}
+.education .inner div img, .hobbies .inner div img{
+	width: 100px;
+	height: auto;
+}
+.hobbies, .skills, .contact{
+	background-color: #77d8d8;
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.hobbies .inner, .contact .inner{
+	padding: 50px;
+	
+}
+.skills {
+	background-image: url(https://previews.123rf.com/images/annaleni/annaleni1612/annaleni161200084/67657568-blue-coding-line-tile-pattern-illustration-of-outline-seamless-background-programming-skills-.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.skills .inner{
+	background-color: rgb(0,0,0,0.2);
+	padding: 320px;
+	color: #fff;
+}
+.skills .inner div ul li{
+	list-style-type: none;
+}
+.skills .inner div ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.contact .inner{
+	text-align: center;
+}
+/* responsive designing */
+@media (min-width:320px) and (max-width:767px){
+	.home .inner img{
+		padding-top: 100px;
+	}
+	#about{
+	    background: burlywood!important;
+	}
+	.about .inner{
+		width: 100%;
+		padding: 25px;
+	}
+	.about .inner p{
+		font-size: 20px;
+		text-align: justify;
+	}
+	.education .inner .div, .hobbies .inner div, .skills .inner div{
+		width: 100%;
+	}
+	.hobbies .inner div{
+		border-bottom-color: 2px solid #d3d3d3;
+	}
+}
+@media (min-width:768px) and (max-width:1023px){
+	
+}
+media (min-width:1024px) and (max-width:1439px){
+	
+}
